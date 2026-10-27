@@ -1,0 +1,36 @@
+# Vivado build and simulation output
+*.jou
+*.log
+*.str
+*.dcp
+*.bit
+*.ltx
+*.rpt
+*.wdb
+*.pb
+*.vcd
+*.fst
+.Xil/
+.Xil*
+*_sim/
+*.cache/
+*.hw/
+*.runs/
+*.sim/
+*.ip_user_files/
+/.lint/
+linter.log
+
+# Local editor and operating-system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local archives
+*.zip
+*.7z

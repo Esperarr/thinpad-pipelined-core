@@ -1,0 +1,16 @@
+|IF|IF->ID|ID|ID->EXE|EXE|EXE->MEM|MEM|MEM->WB|WB|
+|---|----|----|----|----|----|----|----|----|
+|pc|pc||pc||||||
+|instr|instr||||||||
+|||instr_type|instr_type|instr_type|instr_type|instr_type|instr_type|instr_type|
+|||imm|imm|imm|imm||imm||
+|||rf_raddr_a|||||||
+|||rf_raddr_b|||||||
+|||rf_rdata_a|rf_rdata_a|rf_rdata_a|||||
+|||rf_rdata_b|rf_rdata_b|rf_rdata_b|||||
+|||alu_op|alu_op|alu_op|||||
+|||rf_wen||||||rf_wen|
+|||rf_waddr||||||rf_waddr|
+|||rf_wdata|||||rf_wdata(alu_result)|rf_wdata(alu_result)|
+|||||alu_result|alu_result||alu_result(rf_wdata)|alu_result(rf_wdata)|
+|||||||wb_data_i|wb_data_i||

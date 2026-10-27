@@ -1,0 +1,10 @@
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.bin binary
+*.pdf binary
+
+*.xpr text eol=crlf
+*.xci text eol=crlf
+*.xdc text eol=crlf
